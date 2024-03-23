@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bot-analises-futebol"
+version = "0.1.0"
+description = ""
+authors = ["DiegoFreitasDS <diegop.freitas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+ipykernel = "^6.29.3"
+jupyter = "^1.0.0"
+notebook = "^7.1.2"
+pyzmq = "^25.1.2"
+lxml = "^5.1.0"
+html5lib = "^1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
